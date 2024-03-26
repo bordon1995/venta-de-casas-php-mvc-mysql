@@ -1,0 +1,146 @@
+body {
+    margin:0px;
+    max-width: 1400px;
+    background-color: #414141;
+    margin: auto;
+}
+main {
+    max-width: 70%;
+    margin: 10px auto;
+    background-color: gainsboro;
+    border-radius: 1%;
+    padding: 5px;
+    margin: auto;
+}
+.main_login {
+    margin-top: 15%;
+}
+form {
+    width: 70%;
+    margin: auto;
+}
+textarea {
+    width: 100%;
+}
+h1 {
+    padding: 0 20px;
+    color: white;
+    margin-top: 0px;
+}
+h2 {
+    text-align: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5%;
+}
+.editar {
+    background-color: #E5B40F;
+}
+.eliminar {
+    background-color: rebeccapurple;
+}
+.enlaces {
+    margin: 7px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.header {
+    background-size: cover;
+    background-position: center center;
+}
+.inicio {
+     background-image: url('../img/header.jpg');
+    height: 400px;
+}
+.contenido_cards {
+    display: flex;
+    justify-content: center;
+}
+.nav-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+.contenido_cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin: auto;
+    margin: 20px;
+}
+.cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: white;
+}
+.publicidad {
+    width: 100%;
+    height: 100%;
+}
+.cards_p p {
+    margin: 5px 2px;
+    width: 100%;
+}
+.formulario-login {
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    width: 100%;
+}
+.input-login {
+    width: 50%;
+    border: none;
+    padding: 0;
+}
+.contenedor-input {
+    width: 50%;
+    margin: auto;
+}
+.boton {
+    width: 100px;
+}
+.prueva {
+    background-color: red;
+    width: 50%;
+    margin: 8px auto;
+    padding: 5px;
+}
+.prueva p {
+    margin: 0;
+    text-align: center;
+}
+.form_buttom {
+    width: auto;
+    margin: initial;
+}
+.form_buttom input {
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head_a{
+    background-color: inherit;
+}

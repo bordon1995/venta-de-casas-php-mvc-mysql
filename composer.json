@@ -1,0 +1,17 @@
+{
+    "name": "daniel/bienes_raices_mvc",
+    "authors": [
+        {
+            "name": "bordon1995",
+            "email": "bordon1995@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Models\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
