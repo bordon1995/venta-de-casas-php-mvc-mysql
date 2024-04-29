@@ -99,7 +99,7 @@ class PropiedadController
 
             if (empty($validacion)) {
                 $propiedad->guardarPropiedad();
-                $resultado = $propiedad->actualizarDB($id);
+                $resultado = $propiedad->actalizarDB($id);
                 if ($resultado === true) {
                     header('Location:/admin?id=' . $propiedad->vendedor_id);
                 };
